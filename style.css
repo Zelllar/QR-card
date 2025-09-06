@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: rgb(213, 225, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    padding: 16px 16px 40px;
+    border-radius: 20px;
+    max-width: 320px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+    
+}
+
+.cardtext {
+    max-width: 288px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.cardtext h1 {
+    color: rgb(39, 49, 79);
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120%;
+}
+
+.cardtext p {
+    color: rgb(104, 119, 141);
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.imageqrcode img {
+    max-width: 100%;
+}
